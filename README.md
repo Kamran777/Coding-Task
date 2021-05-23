@@ -1,8 +1,10 @@
 # Coding-Task
 
-- You can also watch the video where I recorded this application.
+- You can also watch the video where I recorded this application (archived in Coding-Task-Video.rar file).
 
-FIRST STEP
+# FIRST STEP
+
+First, you need to extract the files from the Coding-task zip file.
 
 Backend:
   - Open Backend folder
@@ -12,12 +14,12 @@ Backend:
         - Your connection string is true (Go to Application Folder->Authentication->appsettings.Development.json->Check ConnectionStrings->Default(The Url of the connection string should match with your MSSQL)
 
 
-SECOND STEP
+# SECOND STEP
 
 Frontend:
   - Download zip.file
   - Open "Frontend" folder in Visual Studio Code (It is also possible to open the frontend code in other code editors such as Sublime Text, Notepad, etc.)
-  - Open Terminal (Right-click on the Terminal section inside Visual Studio Code (or others))
+  - Open Terminal (Click on the Terminal section inside Visual Studio Code (or others))
   In order to run Angular Project, follow these steps:
   - npm install
   - ng serve -o
